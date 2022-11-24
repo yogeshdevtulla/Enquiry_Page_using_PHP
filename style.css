@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(214, 209, 209);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 30%;
+}
+
+.heading {
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    width: 40%;
+    height: 50px;
+    padding: 20px;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(248, 248, 248);
+    color: rgb(7, 7, 7);
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    align-items;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgb(61, 30, 75);
+
+
+}
+
+input[type="msg"],
+select,
+textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid rgb(61, 30, 75);
+}
+
+input[type="submit"],
+select,
+textarea {
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    color: rgb(247, 240, 240);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(74, 133, 100, 0.856);
+
+}
